@@ -6984,6 +6984,7 @@ box-shadow:0 5px 15px rgba(0,0,0,0.1);
     z-index: 1 !important;
 }
 
+
 .student-image-wrapper{
     width: 120px !important;
     height: 120px !important;
@@ -8188,4 +8189,26 @@ box-shadow:0 5px 15px rgba(0,0,0,0.1);
 .student-success-grid {
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)) !important;
     gap: 18px !important;
+}
+.destinations {
+    padding: 60px 40px 90px;
+}
+
+.destinations .countries {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+
+.destinations .country {
+    min-height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.destinations .btn {
+    margin-top: 10px;
 }
