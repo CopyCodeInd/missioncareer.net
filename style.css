@@ -8212,3 +8212,23 @@ box-shadow:0 5px 15px rgba(0,0,0,0.1);
 .destinations .btn {
     margin-top: 10px;
 }
+.cta-section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.cta-section h2 {
+    font-size: 56px;
+    line-height: 1.15;
+    margin-bottom: 20px;
+}
+
+.cta-section p {
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+
+.cta-section .btn {
+    margin-top: 10px;
+    padding: 16px 38px;
+}
