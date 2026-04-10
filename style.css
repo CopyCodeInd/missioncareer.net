@@ -8227,6 +8227,22 @@ box-shadow:0 5px 15px rgba(0,0,0,0.1);
     font-size: 20px;
     margin-bottom: 35px;
 }
+.section-subtitle,
+.process-subtitle,
+.small-heading,
+.section-label,
+.process-label,
+.success-label,
+.services-label,
+.destination-label,
+.hero-label,
+h5,
+.card-label,
+.tagline,
+.subtitle,
+.mini-title {
+    color: #6c3bff !important;
+}
 
 .cta-section .btn {
     margin-top: 10px;
