@@ -8384,37 +8384,3 @@ img{
     justify-content:center;
 }
 
-/* ========================= */
-/* TABLET */
-/* ========================= */
-
-@media(max-width:992px){
-
-    .hero,
-    .about-grid,
-    .about-top,
-    .mission-grid,
-    .contact-grid{
-        grid-template-columns:1fr;
-        text-align:center;
-    }
-
-    .services-grid,
-    .services-extra{
-        grid-template-columns:repeat(2,1fr);
-    }
-
-    .countries{
-        grid-template-columns:repeat(2,1fr);
-    }
-
-    .success-grid,
-    .process-grid{
-        grid-template-columns:repeat(2,1fr);
-    }
-
-    .footer-container{
-        grid-template-columns:repeat(2,1fr);
-    }
-}
-
