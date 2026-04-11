@@ -8254,3 +8254,11 @@ h5,
 [style*="color: lightblue"] {
     color: #6c3bff !important;
 }
+.about-badge,
+.section-badge,
+.process-badge,
+.about-label,
+.process-label {
+    color: #6c3bff !important;
+    border-color: #6c3bff !important;
+}
