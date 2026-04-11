@@ -8275,3 +8275,238 @@ h5,
     background: rgba(124, 58, 237, 0.08) !important;
     box-shadow: none !important;
 }
+# Mobile Responsive CSS for Mission Career
+
+Ye pura CSS `style.css` ke bilkul end mein paste kar de. Isse desktop layout same rahega aur mobile pe automatically responsive ho jayega.
+
+```css
+/* =========================
+   MOBILE RESPONSIVE FIXES
+========================= */
+
+@media (max-width: 1024px) {
+
+    .navbar {
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 15px 20px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 14px;
+    }
+
+    .hero,
+    .about-top,
+    .footer-container,
+    .mission-grid,
+    .hero-widgets,
+    .services-grid,
+    .services-extra,
+    .success-grid,
+    .countries,
+    .process-grid,
+    .process-flow {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 20px;
+    }
+
+    .hero-left,
+    .hero-right,
+    .hero-content,
+    .about-left,
+    .about-right,
+    .footer-col,
+    .widget,
+    .service-card,
+    .service-box,
+    .country,
+    .success-card,
+    .mission-card,
+    .step-card {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .hero h1,
+    .page-hero h1,
+    .cta-section h2,
+    .about-left h2,
+    .process-header h2 {
+        font-size: 42px !important;
+        line-height: 1.2;
+    }
+
+    .hero p,
+    .page-hero p,
+    .about-left p,
+    .cta-section p {
+        font-size: 16px !important;
+        line-height: 1.7;
+    }
+
+    .hero-buttons,
+    .about-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .hero-buttons .btn,
+    .hero-buttons .btn-outline,
+    .about-buttons .btn,
+    .about-buttons .btn-outline,
+    .cta-section .btn {
+        width: 100%;
+    }
+
+    .finder-widget {
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    .team-section {
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    .services-grid,
+    .services-extra,
+    .countries,
+    .success-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+
+@media (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        gap: 12px;
+    }
+
+    .hero,
+    .about-top,
+    .footer-container,
+    .mission-grid,
+    .services-grid,
+    .services-extra,
+    .countries,
+    .success-grid,
+    .hero-stats,
+    .hero-features,
+    .hero-chips {
+        grid-template-columns: 1fr !important;
+        flex-direction: column !important;
+    }
+
+    .hero {
+        padding: 40px 20px !important;
+    }
+
+    .hero h1,
+    .page-hero h1,
+    .about-left h2,
+    .cta-section h2,
+    .process-header h2 {
+        font-size: 32px !important;
+        text-align: center;
+    }
+
+    .hero p,
+    .page-hero p,
+    .about-left p,
+    .cta-section p,
+    .service-card p,
+    .mission-card p {
+        font-size: 15px !important;
+        text-align: center;
+    }
+
+    .hero-buttons,
+    .about-buttons {
+        flex-direction: column;
+    }
+
+    .btn,
+    .btn-outline {
+        width: 100%;
+        text-align: center;
+    }
+
+    .finder-widget {
+        grid-template-columns: 1fr !important;
+    }
+
+    .team-section,
+    .services-grid,
+    .services-extra,
+    .countries,
+    .success-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .team-card,
+    .service-card,
+    .service-box,
+    .country,
+    .success-card,
+    .mission-card,
+    .widget,
+    .step-card {
+        padding: 20px !important;
+        border-radius: 20px;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr !important;
+        gap: 30px;
+    }
+
+    .footer-social {
+        justify-content: center;
+    }
+
+    .ticker-track {
+        gap: 15px;
+    }
+
+    .ticker-track span {
+        font-size: 14px;
+    }
+
+    .success-story-card,
+    .student-card {
+        min-height: auto !important;
+        padding: 20px !important;
+    }
+
+    .student-card h3,
+    .success-card h3 {
+        font-size: 22px !important;
+    }
+
+    .student-card p,
+    .success-card p {
+        font-size: 14px !important;
+    }
+}
+```
+
