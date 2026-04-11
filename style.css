@@ -8248,3 +8248,9 @@ h5,
     margin-top: 10px;
     padding: 16px 38px;
 }
+[style*="color: #87CEEB"],
+[style*="color:#87CEEB"],
+[style*="color: skyblue"],
+[style*="color: lightblue"] {
+    color: #6c3bff !important;
+}
