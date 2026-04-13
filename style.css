@@ -8271,7 +8271,7 @@ h5,
 }
 .process-tag {
     color: #7c3aed !important;
-    border: 1px solid #7c3aed !important;
+    border: 1px solid #7c3aed !important; 
     background: rgba(124, 58, 237, 0.08) !important;
     box-shadow: none !important;
 }
