@@ -2,6 +2,14 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="style.css">
+
+<script>
+if (window.innerWidth <= 768) {
+    var mobileCSS = document.createElement("link");
+    mobileCSS.rel = "stylesheet";
+    mobileCSS.href = "mobile.css";
+    document.head.appendChild(mobileCSS);
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
