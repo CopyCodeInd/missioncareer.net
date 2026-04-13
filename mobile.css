@@ -1,0 +1,109 @@
+body{
+    overflow-x:hidden;
+}
+
+.navbar{
+    flex-direction:column !important;
+    align-items:center !important;
+    text-align:center;
+    padding:16px !important;
+    gap:14px;
+}
+
+.logo img{
+    height:48px !important;
+}
+
+.nav-links{
+    flex-direction:column !important;
+    width:100%;
+    gap:10px !important;
+}
+
+.nav-links li{
+    width:100%;
+}
+
+.nav-links a{
+    display:block;
+    width:100%;
+    padding:12px;
+    border-radius:12px;
+    background:#f1f5ff;
+    text-align:center;
+}
+
+.hero,
+.about-grid,
+.about-top,
+.mission-grid,
+.contact-grid,
+.services-grid,
+.services-extra,
+.success-grid,
+.process-grid,
+.countries,
+.footer-container,
+.students-grid,
+.team-section,
+.staff-grid{
+    display:grid !important;
+    grid-template-columns:1fr !important;
+    gap:20px !important;
+}
+
+.hero{
+    text-align:center;
+    padding:40px 20px !important;
+}
+
+.hero h1,
+.page-hero h1{
+    font-size:30px !important;
+    line-height:1.2;
+}
+
+.hero p,
+.page-hero p{
+    font-size:15px !important;
+}
+
+.hero-buttons,
+.about-buttons{
+    flex-direction:column !important;
+    align-items:center;
+}
+
+.btn,
+.btn-outline{
+    width:100%;
+    max-width:260px;
+    margin:auto;
+}
+
+.student-card,
+.team-card,
+.staff-card,
+.success-card,
+.country,
+.service-card,
+.process-card,
+.mission-card,
+.footer-col{
+    width:100% !important;
+    max-width:100% !important;
+    height:auto !important;
+}
+
+.student-card img,
+.team-card img,
+.staff-card img,
+.success-card img{
+    height:220px !important;
+    object-fit:cover;
+}
+
+.footer{
+    text-align:center;
+    padding:40px 20px !important;
+}
