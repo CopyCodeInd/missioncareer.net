@@ -260,3 +260,152 @@
   }
 
 }
+@media screen and (max-width: 768px) {
+
+  body {
+    overflow-x: hidden !important;
+  }
+
+  section,
+  .hero,
+  .hero-left,
+  .hero-right,
+  .hero-content,
+  .hero-widgets,
+  .services,
+  .destinations,
+  .success-preview,
+  .footer,
+  .footer-container,
+  .countries,
+  .services-extra,
+  .success-grid {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+  .hero-left,
+  .hero-right,
+  .hero-content,
+  .hero-widgets,
+  .widget,
+  .service-box,
+  .country,
+  .success-card,
+  .footer-col {
+    padding: 14px !important;
+    border-radius: 16px !important;
+    margin-bottom: 14px !important;
+  }
+
+  .hero h1,
+  .hero-content h1 {
+    font-size: 24px !important;
+    line-height: 1.2 !important;
+  }
+
+  .hero p,
+  .hero-content p,
+  .service-box p,
+  .success-card p,
+  .footer p,
+  .footer li,
+  .footer a {
+    font-size: 13px !important;
+    line-height: 1.5 !important;
+  }
+
+  .hero-features {
+    grid-template-columns: 1fr !important;
+    gap: 8px !important;
+  }
+
+  .feature {
+    font-size: 12px !important;
+    padding: 10px !important;
+    border-radius: 12px !important;
+  }
+
+  .hero-stats,
+  .stats {
+    gap: 10px !important;
+  }
+
+  .stat {
+    padding: 12px !important;
+  }
+
+  .stat h2,
+  .stat h3 {
+    font-size: 24px !important;
+  }
+
+  .team-card {
+    padding: 10px !important;
+    gap: 10px !important;
+  }
+
+  .team-card img {
+    width: 52px !important;
+    height: 52px !important;
+  }
+
+  .team-info h3 {
+    font-size: 14px !important;
+  }
+
+  .team-info p {
+    font-size: 11px !important;
+  }
+
+  .finder-widget select,
+  .finder-widget button {
+    height: 42px !important;
+    font-size: 12px !important;
+    padding: 0 10px !important;
+  }
+
+  .btn,
+  .btn-outline {
+    max-width: 180px !important;
+    padding: 10px 14px !important;
+    font-size: 12px !important;
+  }
+
+  .hero-chips {
+    gap: 6px !important;
+  }
+
+  .chip {
+    font-size: 11px !important;
+    padding: 7px 10px !important;
+  }
+
+  .widget h3,
+  .services h2,
+  .destinations h2,
+  .success-preview h2,
+  .footer-col h3,
+  .footer-col h4 {
+    font-size: 18px !important;
+  }
+
+  .ticker-track span {
+    font-size: 11px !important;
+    padding: 6px 10px !important;
+  }
+
+  .ticker-track span img {
+    width: 18px !important;
+  }
+
+  .success-card img {
+    width: 55px !important;
+    height: 55px !important;
+  }
+
+  .footer-logo img {
+    width: 120px !important;
+  }
+}
