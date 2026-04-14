@@ -942,3 +942,55 @@
     color: #243b7c !important;
   }
 }
+@media screen and (max-width: 768px) {
+
+  html,
+  body {
+    overflow-x: hidden !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  * {
+    box-sizing: border-box !important;
+    max-width: 100% !important;
+  }
+
+  .hero,
+  .hero-left,
+  .hero-right,
+  .hero-content,
+  .hero-features,
+  .hero-stats,
+  .feature,
+  .stat {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .hero {
+    padding: 0 12px !important;
+    overflow-x: hidden !important;
+  }
+
+  .hero-left {
+    padding: 18px 14px !important;
+    border-radius: 24px !important;
+  }
+
+  .feature,
+  .hero-stats .stat {
+    width: calc(100vw - 52px) !important;
+    max-width: calc(100vw - 52px) !important;
+    margin: 0 auto !important;
+  }
+
+  .hero h1,
+  .hero p {
+    width: 100% !important;
+    max-width: 100% !important;
+    word-wrap: break-word !important;
+  }
+}
