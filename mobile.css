@@ -1093,3 +1093,30 @@
     margin: 0 !important;
   }
 }
+@media screen and (max-width: 768px) {
+
+  .services-extra {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+  .service-box {
+    width: 88% !important;
+    max-width: 88% !important;
+    margin: 0 auto 14px auto !important;
+    padding: 16px 12px !important;
+    box-sizing: border-box !important;
+    text-align: center !important;
+  }
+
+  .service-box h3,
+  .service-box p {
+    width: 100% !important;
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
