@@ -994,3 +994,58 @@
     word-wrap: break-word !important;
   }
 }
+@media screen and (max-width: 768px) {
+
+  .team-card {
+    position: relative;
+    width: 100% !important;
+    height: 260px !important;
+    border-radius: 24px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    margin-bottom: 18px !important;
+    background: #dfe8f7 !important;
+  }
+
+  .team-card img,
+  .team-card .pooja-img,
+  .team-card .gautam-img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: center top !important;
+    display: block !important;
+    border-radius: 24px !important;
+  }
+
+  .team-card::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 45%;
+    background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+    z-index: 1;
+  }
+
+  .team-info {
+    position: absolute !important;
+    left: 16px !important;
+    bottom: 16px !important;
+    z-index: 2 !important;
+    width: calc(100% - 32px) !important;
+  }
+
+  .team-info h3 {
+    color: white !important;
+    font-size: 22px !important;
+    margin-bottom: 4px !important;
+  }
+
+  .team-info p {
+    color: rgba(255,255,255,0.85) !important;
+    font-size: 13px !important;
+    margin: 0 !important;
+  }
+}
