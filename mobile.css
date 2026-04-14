@@ -617,3 +617,104 @@
     flex-shrink: 0;
   }
 }
+@media screen and (max-width: 768px) {
+
+  .hero-left {
+    background: transparent !important;
+    box-shadow: none !important;
+    padding: 10px 0 0 0 !important;
+    margin: 0 !important;
+  }
+
+  .hero h1,
+  .hero-left h1 {
+    font-size: 34px !important;
+    line-height: 1.15 !important;
+    text-align: center !important;
+    margin-bottom: 16px !important;
+    padding: 0 12px;
+  }
+
+  .hero p,
+  .hero-left p {
+    font-size: 15px !important;
+    line-height: 1.7 !important;
+    text-align: center !important;
+    color: #4b5563 !important;
+    padding: 0 16px;
+    margin-bottom: 20px !important;
+  }
+
+  .hero-features {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+    margin-top: 20px !important;
+  }
+
+  .feature {
+    width: 100% !important;
+    background: #ffffff !important;
+    border-radius: 18px !important;
+    padding: 14px 16px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+    box-shadow: 0 8px 22px rgba(0,0,0,0.08) !important;
+    color: #243b7c !important;
+  }
+
+  .hero-stats {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 14px !important;
+    margin-top: 24px !important;
+  }
+
+  .hero-stats .stat {
+    background: linear-gradient(135deg, #eef5ff, #dcecff) !important;
+    border-radius: 24px !important;
+    padding: 22px 18px !important;
+    text-align: center !important;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08) !important;
+  }
+
+  .hero-stats .stat h2 {
+    font-size: 40px !important;
+    margin-bottom: 8px !important;
+    color: #1463ff !important;
+  }
+
+  .hero-stats .stat p {
+    font-size: 16px !important;
+    margin: 0 !important;
+    color: #243b7c !important;
+    font-weight: 500;
+  }
+
+  .hero-buttons {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 14px !important;
+    margin-top: 28px !important;
+    align-items: center !important;
+  }
+
+  .hero-buttons .btn,
+  .hero-buttons .btn-outline {
+    width: 85% !important;
+    max-width: 280px !important;
+    height: 52px !important;
+    border-radius: 30px !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+  }
+
+  .trust-line {
+    margin-top: 22px !important;
+    text-align: center !important;
+    font-size: 15px !important;
+    color: #243b7c !important;
+    font-weight: 500;
+  }
+}
