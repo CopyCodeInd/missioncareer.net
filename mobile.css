@@ -1198,3 +1198,41 @@
     font-size: 15px !important;
   }
 }
+@media screen and (max-width: 768px) {
+
+  .destinations {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .destinations h2 {
+    width: 100% !important;
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .countries {
+    width: 100% !important;
+    max-width: 340px !important;
+    margin: 0 auto 20px auto !important;
+    justify-content: center !important;
+  }
+
+  .country {
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+
+  .destinations a {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .destinations .btn {
+    margin: 0 auto !important;
+  }
+}
