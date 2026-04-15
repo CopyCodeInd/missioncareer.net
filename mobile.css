@@ -1378,3 +1378,39 @@
     line-height: 1.4 !important;
   }
 }
+@media screen and (max-width: 768px) {
+
+  .stats-slider,
+  .stats-row,
+  .stats-section .swiper-wrapper,
+  .stats-section .carousel-track {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 18px !important;
+    width: 100% !important;
+    overflow: visible !important;
+    transform: none !important;
+  }
+
+  .stats-slider .swiper-slide,
+  .stats-row .stat-card,
+  .stats-section .card,
+  .stats-section .stat-box {
+    width: 90% !important;
+    max-width: 340px !important;
+    min-width: unset !important;
+    margin: 0 auto !important;
+    border-radius: 28px !important;
+    padding: 25px 15px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .stats-section {
+    overflow-x: hidden !important;
+  }
+}
