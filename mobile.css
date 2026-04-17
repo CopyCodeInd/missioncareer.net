@@ -2289,3 +2289,137 @@ html {
   }
 
 }
+@media screen and (max-width: 768px) {
+
+  .about-advanced-section {
+    width: 92% !important;
+    max-width: 92% !important;
+    margin: 25px auto !important;
+    padding: 25px 15px !important;
+    overflow: hidden !important;
+    box-sizing: border-box !important;
+  }
+
+  .about-top {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    gap: 30px !important;
+  }
+
+  .about-left {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    text-align: center !important;
+  }
+
+  .about-left h2 {
+    font-size: 2.4rem !important;
+    line-height: 1.2 !important;
+    width: 100% !important;
+    margin: 20px auto !important;
+    text-align: center !important;
+  }
+
+  .about-left p {
+    width: 100% !important;
+    margin: 0 auto 20px auto !important;
+    text-align: center !important;
+    font-size: 1.05rem !important;
+    line-height: 1.8 !important;
+  }
+
+  .about-tag {
+    display: inline-block !important;
+    margin: 0 auto 15px auto !important;
+    font-size: 0.95rem !important;
+    text-align: center !important;
+  }
+
+  .about-buttons {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 15px !important;
+    margin-top: 25px !important;
+  }
+
+  .about-buttons a {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .about-buttons .btn,
+  .about-buttons .btn-outline {
+    width: 85% !important;
+    max-width: 320px !important;
+    margin: 0 auto !important;
+  }
+
+  .about-right {
+    width: 100% !important;
+    max-width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 18px !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    position: static !important;
+  }
+
+  .about-main-card {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    position: static !important;
+    transform: none !important;
+  }
+
+  .about-main-card img {
+    width: 100% !important;
+    height: 260px !important;
+    object-fit: cover !important;
+    border-radius: 25px !important;
+    display: block !important;
+  }
+
+  .mini-card,
+  .card-1,
+  .card-2,
+  .card-3 {
+    width: 100% !important;
+    max-width: 100% !important;
+    position: static !important;
+    left: unset !important;
+    right: unset !important;
+    top: unset !important;
+    bottom: unset !important;
+    transform: none !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+    padding: 22px 15px !important;
+  }
+
+  .mini-card h3 {
+    font-size: 2rem !important;
+    margin-bottom: 8px !important;
+  }
+
+  .mini-card p {
+    font-size: 1rem !important;
+    margin: 0 !important;
+  }
+
+}
