@@ -1969,3 +1969,61 @@
     font-size: 14px !important;
   }
 }
+@media screen and (max-width: 768px) {
+
+  .navbar {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 15px !important;
+    position: relative !important;
+  }
+
+  .logo img {
+    width: 130px !important;
+  }
+
+  .mobile-menu-toggle {
+    width: 55px !important;
+    height: 55px !important;
+    background: #f3f6ff !important;
+    border-radius: 18px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 6px !important;
+    cursor: pointer !important;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08) !important;
+  }
+
+  .mobile-menu-toggle span {
+    width: 24px !important;
+    height: 3px !important;
+    background: #23408e !important;
+    border-radius: 10px !important;
+    display: block !important;
+  }
+
+  .nav-links {
+    display: none !important;
+    position: absolute !important;
+    top: 90px !important;
+    left: 15px !important;
+    right: 15px !important;
+    background: #f3f6ff !important;
+    border-radius: 24px !important;
+    padding: 20px !important;
+    flex-direction: column !important;
+    gap: 15px !important;
+    z-index: 999 !important;
+  }
+
+  .nav-links.active {
+    display: flex !important;
+  }
+
+  .navbar .btn {
+    display: none !important;
+  }
+}
