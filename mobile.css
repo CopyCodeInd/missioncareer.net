@@ -2139,7 +2139,52 @@ body,
 html {
   overflow-x: hidden;
 }
+@media screen and (max-width: 768px) {
 
+  .page-hero {
+    width: 90% !important;
+    max-width: 90% !important;
+    margin: 25px auto !important;
+    padding: 50px 18px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    overflow: hidden !important;
+  }
+
+  .page-hero h1 {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto 20px auto !important;
+    padding: 0 !important;
+    font-size: 2.2rem !important;
+    line-height: 1.2 !important;
+    text-align: center !important;
+    display: block !important;
+    position: relative !important;
+    left: 0 !important;
+    right: 0 !important;
+    transform: none !important;
+  }
+
+  .page-hero p {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    font-size: 1.05rem !important;
+    line-height: 1.7 !important;
+    text-align: center !important;
+    display: block !important;
+    position: relative !important;
+    left: 0 !important;
+    right: 0 !important;
+    transform: none !important;
+  }
+
+}
 * {
   max-width: 100%;
   box-sizing: border-box;
