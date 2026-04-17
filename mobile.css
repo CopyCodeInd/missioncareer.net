@@ -2101,3 +2101,37 @@
     overflow-x: hidden !important;
   }
 }
+/* ABOUT HERO MOBILE FIX */
+
+@media screen and (max-width: 768px) {
+
+  .page-hero {
+    width: calc(100% - 32px);
+    margin: 20px auto;
+    padding: 40px 20px;
+    border-radius: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .page-hero h1 {
+    width: 100%;
+    margin: 0 auto 18px auto;
+    padding: 0;
+    font-size: 2.2rem;
+    line-height: 1.15;
+    text-align: center;
+    word-break: break-word;
+  }
+
+  .page-hero p {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    text-align: center;
+  }
+
+}
