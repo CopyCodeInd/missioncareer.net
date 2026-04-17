@@ -2059,3 +2059,45 @@
     font-size: 20px !important;
   }
 }
+@media screen and (max-width: 768px) {
+
+  .about-hero,
+  .about-content,
+  .about-section {
+    width: calc(100% - 20px) !important;
+    max-width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 30px 15px !important;
+    box-sizing: border-box !important;
+    overflow-x: hidden !important;
+    text-align: center !important;
+  }
+
+  .about-hero h1,
+  .about-content h1,
+  .about-section h1 {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto 20px auto !important;
+    text-align: center !important;
+    font-size: 34px !important;
+    line-height: 1.2 !important;
+    word-break: break-word !important;
+  }
+
+  .about-hero p,
+  .about-content p,
+  .about-section p {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+    line-height: 1.7 !important;
+  }
+
+  body,
+  html {
+    overflow-x: hidden !important;
+  }
+}
