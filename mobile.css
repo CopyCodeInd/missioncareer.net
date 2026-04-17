@@ -2570,3 +2570,138 @@ html {
   }
 
 }
+@media screen and (max-width: 768px) {
+
+  .process-flow {
+    position: relative !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 20px !important;
+  }
+
+  .process-flow::before {
+    content: "" !important;
+    position: absolute !important;
+    left: 28px !important;
+    top: 0 !important;
+    width: 4px !important;
+    height: 100% !important;
+    background: #1d47c9 !important;
+    border-radius: 20px !important;
+  }
+
+  .flow-line {
+    display: none !important;
+  }
+
+  .flow-step {
+    position: relative !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 14px !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .step-circle {
+    width: 56px !important;
+    height: 56px !important;
+    min-width: 56px !important;
+    border-radius: 50% !important;
+    position: relative !important;
+    z-index: 2 !important;
+    margin-left: 0 !important;
+  }
+
+  .step-card {
+    width: calc(100% - 70px) !important;
+    max-width: calc(100% - 70px) !important;
+    min-height: auto !important;
+    padding: 16px 14px !important;
+    border-radius: 20px !important;
+    margin: 0 !important;
+    text-align: center !important;
+  }
+
+  .step-card h3 {
+    font-size: 1rem !important;
+    line-height: 1.35 !important;
+    margin-bottom: 8px !important;
+  }
+
+  .step-card p {
+    font-size: 0.85rem !important;
+    line-height: 1.45 !important;
+    margin: 0 !important;
+  }
+
+}@media screen and (max-width: 768px) {
+
+  .process-flow {
+    position: relative !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 20px !important;
+  }
+
+  .process-flow::before {
+    content: "" !important;
+    position: absolute !important;
+    left: 28px !important;
+    top: 0 !important;
+    width: 4px !important;
+    height: 100% !important;
+    background: #1d47c9 !important;
+    border-radius: 20px !important;
+  }
+
+  .flow-line {
+    display: none !important;
+  }
+
+  .flow-step {
+    position: relative !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 14px !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .step-circle {
+    width: 56px !important;
+    height: 56px !important;
+    min-width: 56px !important;
+    border-radius: 50% !important;
+    position: relative !important;
+    z-index: 2 !important;
+    margin-left: 0 !important;
+  }
+
+  .step-card {
+    width: calc(100% - 70px) !important;
+    max-width: calc(100% - 70px) !important;
+    min-height: auto !important;
+    padding: 16px 14px !important;
+    border-radius: 20px !important;
+    margin: 0 !important;
+    text-align: center !important;
+  }
+
+  .step-card h3 {
+    font-size: 1rem !important;
+    line-height: 1.35 !important;
+    margin-bottom: 8px !important;
+  }
+
+  .step-card p {
+    font-size: 0.85rem !important;
+    line-height: 1.45 !important;
+    margin: 0 !important;
+  }
+
+}
