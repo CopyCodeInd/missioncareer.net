@@ -2903,3 +2903,54 @@ html {
   }
 
 }
+@media screen and (max-width: 768px) {
+
+  section:last-of-type {
+    width: 92% !important;
+    margin: 30px auto !important;
+    padding: 30px 15px !important;
+    box-sizing: border-box !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    overflow: hidden !important;
+  }
+
+  section:last-of-type h2 {
+    width: 100% !important;
+    text-align: center !important;
+    font-size: 2.4rem !important;
+    line-height: 1.2 !important;
+    margin: 0 auto 30px auto !important;
+    padding: 0 !important;
+  }
+
+  section:last-of-type .services-grid {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 18px !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+  }
+
+  section:last-of-type .service-card {
+    width: 100% !important;
+    max-width: 320px !important;
+    min-height: 110px !important;
+    margin: 0 auto !important;
+    padding: 25px 18px !important;
+    border-radius: 28px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    font-size: 1.2rem !important;
+    line-height: 1.4 !important;
+    box-sizing: border-box !important;
+  }
+
+}
