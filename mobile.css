@@ -3185,3 +3185,54 @@ html {
     border-radius: 10px !important;
   }
 }
+@media (max-width: 768px) {
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    position: relative;
+  }
+
+  .mobile-menu-toggle {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 58px;
+    height: 58px;
+    background: #eaf4ff;
+    border-radius: 18px;
+    box-shadow: 8px 8px 20px rgba(180,200,230,0.5),
+                -8px -8px 20px rgba(255,255,255,0.9);
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+
+  .mobile-menu-toggle span {
+    width: 24px;
+    height: 3px;
+    background: #1d3f91;
+    margin: 3px 0;
+    border-radius: 10px;
+  }
+
+  .nav-links {
+    display: none !important;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    background: #f4f4f4;
+    border-radius: 30px;
+    padding: 20px;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 999;
+  }
+
+  .nav-links.active {
+    display: flex !important;
+  }
+}
