@@ -3190,3 +3190,73 @@ html {
     transform: none !important;
   }
 }
+.hamburger {
+    display: none;
+    width: 58px;
+    height: 58px;
+    background: #edf4ff;
+    border-radius: 18px;
+    box-shadow: 8px 8px 20px rgba(163, 177, 198, 0.35),
+                -8px -8px 20px rgba(255, 255, 255, 0.9);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.hamburger span {
+    width: 24px;
+    height: 3px;
+    background: #1f4ba5;
+    border-radius: 10px;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .navbar {
+        position: relative;
+    }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 95px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        background: #f5f7fb;
+        border-radius: 30px;
+        padding: 25px 20px;
+        flex-direction: column;
+        gap: 18px;
+        box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+        z-index: 999;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        width: 100%;
+        list-style: none;
+    }
+
+    .nav-links li a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        background: #edf1f7;
+        padding: 16px;
+        border-radius: 18px;
+        text-decoration: none;
+        color: #222;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
