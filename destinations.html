@@ -27,25 +27,23 @@ if (window.innerWidth <= 768) {
 <!-- NAVBAR -->
 <nav class="navbar">
 
-<div class="logo">
-<img src="mclogo.png" alt="Mission Career Logo">
-</div>
+  <div class="logo">
+    <img src="mclogo.png" alt="Mission Career Logo">
+  </div>
 
-<ul class="nav-links">
+  <ul class="nav-links">
+    ...
+  </ul>
 
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="services.html">Services</a></li>
-<li><a href="destinations.html">Destinations</a></li>
-<li><a href="process.html">Process</a></li>
-<li><a href="success.html">Success Stories</a></li>
-<li><a href="contact.html">Contact</a></li>
+  <a href="contact.html">
+    <button class="btn">Free Counseling</button>
+  </a>
 
-</ul>
-
-<a href="contact.html">
-<button class="btn">Free Counseling</button>
-</a>
+  <div class="mobile-menu-toggle" onclick="document.querySelector('.nav-links').classList.toggle('active')">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
 
 </nav>
 
