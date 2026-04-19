@@ -3144,4 +3144,28 @@ html {
   .nav-links.active {
     right: 0 !important;
   }
+}@media screen and (max-width: 768px) {
+  .mobile-menu-toggle {
+    display: flex !important;
+    width: 40px !important;
+    height: 40px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    gap: 4px !important;
+    background: #ffffff !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08) !important;
+    cursor: pointer !important;
+    flex-shrink: 0 !important;
+  }
+
+  .mobile-menu-toggle span {
+    display: block !important;
+    width: 18px !important;
+    height: 2px !important;
+    background: #222 !important;
+    border-radius: 10px !important;
+  }
 }
+
