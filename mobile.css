@@ -3136,11 +3136,3 @@ html {
   }
 
 }
-@media screen and (max-width: 768px) {
-  .nav-links {
-    right: -100% !important;
-  }
-
-  .nav-links.active {
-    right: 0 !important;
-  }
