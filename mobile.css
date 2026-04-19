@@ -3159,29 +3159,3 @@ html {
     display: block !important;
   }
 }
-@media screen and (max-width: 768px) {
-
-  .mobile-menu-toggle {
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: center !important;
-    align-items: center !important;
-    width: 42px !important;
-    height: 42px !important;
-    background: #ffffff !important;
-    border-radius: 12px !important;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08) !important;
-    gap: 5px !important;
-    cursor: pointer !important;
-    margin-left: 8px !important;
-    flex-shrink: 0 !important;
-  }
-
-  .mobile-menu-toggle span {
-    display: block !important;
-    width: 18px !important;
-    height: 2px !important;
-    background: #222 !important;
-    border-radius: 10px !important;
-  }
-}
