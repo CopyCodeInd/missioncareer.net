@@ -3276,3 +3276,47 @@ html {
   border-radius: 30px !important;
   z-index: 9999 !important;
 }
+.mobile-nav.active,
+.nav-menu.active,
+.hamburger-menu-content.active,
+.mobile-menu.active {
+  position: fixed !important;
+  top: 100px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 92% !important;
+  max-width: 350px !important;
+  height: auto !important;
+  max-height: 75vh !important;
+  overflow-y: auto !important;
+  padding: 20px !important;
+  border-radius: 30px !important;
+  z-index: 99999 !important;
+  margin: 0 auto !important;
+}
+
+.mobile-nav.active ul,
+.nav-menu.active ul,
+.hamburger-menu-content.active ul,
+.mobile-menu.active ul {
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.mobile-nav.active li,
+.nav-menu.active li,
+.hamburger-menu-content.active li,
+.mobile-menu.active li {
+  width: 100% !important;
+  margin: 10px 0 !important;
+}
+
+.mobile-nav.active a,
+.nav-menu.active a,
+.hamburger-menu-content.active a,
+.mobile-menu.active a {
+  display: block !important;
+  width: 100% !important;
+  text-align: center !important;
+}
