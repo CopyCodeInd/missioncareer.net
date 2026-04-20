@@ -3320,3 +3320,15 @@ html {
   width: 100% !important;
   text-align: center !important;
 }
+@media screen and (max-width: 768px) {
+  .nav-links {
+    left: 50% !important;
+    right: auto !important;
+    transform: translateX(-50%) !important;
+    width: 90% !important;
+    max-width: 340px !important;
+    height: auto !important;
+    max-height: 75vh !important;
+    overflow-y: auto !important;
+  }
+}
