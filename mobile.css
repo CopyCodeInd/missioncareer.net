@@ -3260,3 +3260,19 @@ html {
         font-weight: 500;
     }
 }
+.mobile-nav.active,
+.nav-menu.active,
+.hamburger-menu-content.active,
+.mobile-menu.active {
+  position: fixed !important;
+  top: 110px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 90% !important;
+  max-width: 340px !important;
+  height: auto !important;
+  max-height: 75vh !important;
+  overflow-y: auto !important;
+  border-radius: 30px !important;
+  z-index: 9999 !important;
+}
