@@ -8276,6 +8276,1006 @@ h5,
     box-shadow: none !important;
 }
 
+yaha se change k    ra hai 
+
+
+/* ===================================================== */
+/* ===== MISSION CAREER COMPLETE BRAND THEME OVERRIDE === */
+/* ===== ADD THIS AT THE VERY END OF style.css ========= */
+/* ===================================================== */
+
+/* ========================= */
+/* BRAND COLOR VARIABLES */
+/* ========================= */
+
+:root{
+
+--mc-primary:#0f7ed8;
+--mc-primary-dark:#0667b8;
+--mc-primary-light:#49a9ee;
+
+--mc-bg:#edf7ff;
+--mc-bg-soft:#f6fbff;
+
+--mc-white:#ffffff;
+
+--mc-text:#11446b;
+--mc-text-light:#4f7191;
+
+--mc-border:#cde8fb;
+
+--mc-shadow:
+0 10px 30px rgba(15,126,216,0.12);
+
+--mc-glow:
+0 0 25px rgba(15,126,216,0.25);
+
+}
+
+
+/* ========================= */
+/* GLOBAL WEBSITE */
+/* ========================= */
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+
+background:
+linear-gradient(
+180deg,
+#f7fbff 0%,
+#edf7ff 35%,
+#e3f3ff 100%
+) !important;
+
+color:var(--mc-text) !important;
+
+font-family:
+"Poppins",
+sans-serif !important;
+
+overflow-x:hidden;
+
+}
+
+
+/* remove old purple everywhere */
+
+*{
+border-color:var(--mc-border);
+}
+
+
+/* ========================= */
+/* ALL SECTIONS */
+/* ========================= */
+
+section,
+.hero,
+.services,
+.stats,
+.finder,
+.page-hero,
+.contact-section,
+.map-section,
+.cta-section{
+
+background:transparent !important;
+
+}
+
+
+/* ========================= */
+/* HEADINGS */
+/* ========================= */
+
+h1,h2,h3,h4,h5,h6{
+
+color:var(--mc-text) !important;
+font-weight:700;
+
+}
+
+p{
+color:var(--mc-text-light) !important;
+line-height:1.8;
+}
+
+
+/* ========================= */
+/* NAVBAR */
+/* ========================= */
+
+.navbar{
+
+background:
+rgba(255,255,255,0.82) !important;
+
+backdrop-filter:blur(18px);
+
+border:1px solid rgba(255,255,255,0.4);
+
+box-shadow:
+0 8px 30px rgba(15,126,216,0.08) !important;
+
+padding:18px 7% !important;
+
+position:sticky;
+top:0;
+z-index:9999;
+
+}
+
+
+/* nav links */
+
+.nav-links a{
+
+color:var(--mc-text) !important;
+
+font-weight:600;
+
+letter-spacing:0.3px;
+
+transition:0.3s ease;
+
+position:relative;
+
+}
+
+
+/* underline */
+
+.nav-links a::after{
+
+content:"";
+
+position:absolute;
+
+left:0;
+bottom:-6px;
+
+width:0%;
+height:3px;
+
+border-radius:20px;
+
+background:
+linear-gradient(
+90deg,
+var(--mc-primary),
+var(--mc-primary-light)
+);
+
+transition:0.35s ease;
+
+}
+
+.nav-links a:hover{
+
+color:var(--mc-primary) !important;
+
+}
+
+.nav-links a:hover::after{
+
+width:100%;
+
+}
+
+
+/* ========================= */
+/* LOGO */
+/* ========================= */
+
+.logo{
+
+background:white !important;
+
+padding:10px 20px !important;
+
+border-radius:24px !important;
+
+box-shadow:
+0 10px 30px rgba(15,126,216,0.12);
+
+transition:0.35s ease;
+
+}
+
+.logo:hover{
+
+transform:
+translateY(-4px)
+scale(1.03);
+
+box-shadow:
+0 18px 40px rgba(15,126,216,0.2);
+
+}
+
+
+/* ========================= */
+/* HERO SECTION */
+/* ========================= */
+
+.hero{
+
+padding:120px 8% !important;
+
+background:
+linear-gradient(
+135deg,
+#f8fcff 0%,
+#edf7ff 40%,
+#dff2ff 100%
+) !important;
+
+position:relative;
+
+overflow:hidden;
+
+}
+
+
+/* animated glow */
+
+.hero::before{
+
+content:"";
+
+position:absolute;
+
+width:500px;
+height:500px;
+
+right:-150px;
+top:-150px;
+
+background:
+radial-gradient(
+circle,
+rgba(73,169,238,0.22),
+transparent 70%
+);
+
+z-index:0;
+
+}
+
+
+/* hero content */
+
+.hero-content,
+.hero-left,
+.hero-right{
+
+position:relative;
+z-index:2;
+
+}
+
+
+/* main heading */
+
+.hero h1{
+
+font-size:72px !important;
+
+line-height:1.05 !important;
+
+font-weight:800 !important;
+
+color:var(--mc-text) !important;
+
+letter-spacing:-2px;
+
+}
+
+
+/* blue gradient heading */
+
+.gradient-text{
+
+background:
+linear-gradient(
+90deg,
+var(--mc-primary),
+var(--mc-primary-light)
+) !important;
+
+-webkit-background-clip:text !important;
+-webkit-text-fill-color:transparent !important;
+
+}
+
+
+/* paragraph */
+
+.hero p{
+
+font-size:19px !important;
+
+max-width:700px;
+
+margin-top:22px;
+
+}
+
+
+/* ========================= */
+/* BUTTONS */
+/* ========================= */
+
+.btn,
+.nav-btn{
+
+background:
+linear-gradient(
+135deg,
+var(--mc-primary),
+var(--mc-primary-light)
+) !important;
+
+color:white !important;
+
+border:none !important;
+
+border-radius:18px !important;
+
+padding:14px 32px !important;
+
+font-weight:700;
+
+letter-spacing:0.3px;
+
+box-shadow:
+0 10px 25px rgba(15,126,216,0.25);
+
+transition:0.35s ease;
+
+}
+
+
+/* hover */
+
+.btn:hover,
+.nav-btn:hover{
+
+transform:
+translateY(-4px)
+scale(1.03);
+
+box-shadow:
+0 18px 40px rgba(15,126,216,0.35);
+
+}
+
+
+/* outline */
+
+.btn-outline{
+
+background:white !important;
+
+color:var(--mc-primary) !important;
+
+border:2px solid var(--mc-primary) !important;
+
+border-radius:18px !important;
+
+font-weight:700;
+
+transition:0.35s ease;
+
+}
+
+.btn-outline:hover{
+
+background:
+linear-gradient(
+135deg,
+var(--mc-primary),
+var(--mc-primary-light)
+) !important;
+
+color:white !important;
+
+transform:translateY(-4px);
+
+}
+
+
+/* ========================= */
+/* CARDS GLOBAL */
+/* ========================= */
+
+.service-card,
+.service-box,
+.success-card,
+.process-card,
+.country,
+.stat,
+.widget,
+.uni-card,
+.feature-box,
+.timeline-content,
+.contact-form,
+.map-card,
+.footer-col,
+.review-big-card{
+
+background:
+rgba(255,255,255,0.9) !important;
+
+backdrop-filter:blur(12px);
+
+border:1px solid rgba(255,255,255,0.4);
+
+border-radius:28px !important;
+
+box-shadow:
+0 12px 35px rgba(15,126,216,0.1) !important;
+
+transition:0.4s ease;
+
+}
+
+
+/* hover effect */
+
+.service-card:hover,
+.service-box:hover,
+.success-card:hover,
+.process-card:hover,
+.country:hover,
+.stat:hover,
+.widget:hover,
+.uni-card:hover,
+.feature-box:hover,
+.timeline-content:hover,
+.review-big-card:hover{
+
+transform:
+translateY(-10px)
+scale(1.02);
+
+box-shadow:
+0 25px 60px rgba(15,126,216,0.18) !important;
+
+}
+
+
+/* ========================= */
+/* SERVICE SECTION */
+/* ========================= */
+
+.services{
+
+padding:100px 7% !important;
+
+}
+
+.services h2{
+
+font-size:46px !important;
+
+margin-bottom:50px !important;
+
+}
+
+
+/* service title */
+
+.service-card h3,
+.service-box h3{
+
+color:var(--mc-primary) !important;
+
+font-size:22px;
+
+margin-bottom:10px;
+
+}
+
+
+/* ========================= */
+/* HERO FEATURES */
+/* ========================= */
+
+.feature{
+
+background:
+rgba(255,255,255,0.85) !important;
+
+border:1px solid rgba(15,126,216,0.1);
+
+border-radius:40px !important;
+
+padding:14px 18px !important;
+
+font-weight:600;
+
+color:var(--mc-text) !important;
+
+box-shadow:
+0 8px 20px rgba(15,126,216,0.08);
+
+}
+
+.feature:hover{
+
+background:white !important;
+
+transform:
+translateY(-5px)
+scale(1.04);
+
+}
+
+
+/* ========================= */
+/* STATS */
+/* ========================= */
+
+.hero-stats .stat h2,
+.stat h2,
+.stat h3{
+
+font-size:42px !important;
+
+color:var(--mc-primary) !important;
+
+font-weight:800;
+
+}
+
+
+/* ========================= */
+/* STUDENT CARDS */
+/* ========================= */
+
+.student-card,
+.team-card,
+.staff-card{
+
+border-radius:30px !important;
+
+overflow:hidden;
+
+box-shadow:
+0 20px 50px rgba(15,126,216,0.18) !important;
+
+transition:0.45s ease;
+
+}
+
+.student-card:hover,
+.team-card:hover,
+.staff-card:hover{
+
+transform:
+translateY(-12px)
+scale(1.04);
+
+}
+
+
+/* ========================= */
+/* FINDER */
+/* ========================= */
+
+.finder-widget,
+.premium-finder,
+.finder-form{
+
+background:
+rgba(255,255,255,0.9) !important;
+
+border-radius:24px !important;
+
+padding:18px !important;
+
+box-shadow:
+0 15px 35px rgba(15,126,216,0.1);
+
+}
+
+
+/* inputs */
+
+input,
+textarea,
+select{
+
+background:white !important;
+
+border:2px solid #d7ebfb !important;
+
+border-radius:14px !important;
+
+padding:14px !important;
+
+outline:none;
+
+transition:0.3s;
+
+color:var(--mc-text);
+
+}
+
+input:focus,
+textarea:focus,
+select:focus{
+
+border-color:var(--mc-primary) !important;
+
+box-shadow:
+0 0 0 5px rgba(15,126,216,0.12);
+
+}
+
+
+/* ========================= */
+/* COUNTRY TICKER */
+/* ========================= */
+
+.country-list span,
+.ticker-track span{
+
+background:white !important;
+
+color:var(--mc-primary) !important;
+
+border-radius:40px !important;
+
+padding:10px 16px !important;
+
+font-weight:600;
+
+box-shadow:
+0 8px 18px rgba(15,126,216,0.08);
+
+}
+
+.country-list span:hover,
+.ticker-track span:hover{
+
+background:var(--mc-primary) !important;
+
+color:white !important;
+
+}
+
+
+/* ========================= */
+/* MAP */
+/* ========================= */
+
+.map-wrapper{
+
+border-radius:32px !important;
+
+overflow:hidden;
+
+box-shadow:
+0 20px 60px rgba(15,126,216,0.16);
+
+}
+
+
+/* ========================= */
+/* FOOTER */
+/* ========================= */
+
+.footer{
+
+background:
+linear-gradient(
+135deg,
+#0f7ed8,
+#49a9ee
+) !important;
+
+padding:90px 7% 40px !important;
+
+margin-top:100px;
+
+position:relative;
+
+overflow:hidden;
+
+}
+
+
+/* footer glow */
+
+.footer::before{
+
+content:"";
+
+position:absolute;
+
+width:600px;
+height:600px;
+
+right:-250px;
+top:-250px;
+
+background:
+radial-gradient(
+circle,
+rgba(255,255,255,0.15),
+transparent 70%
+);
+
+}
+
+
+/* footer content */
+
+.footer *{
+
+position:relative;
+z-index:2;
+
+}
+
+
+/* footer columns */
+
+.footer-col{
+
+background:
+rgba(255,255,255,0.12) !important;
+
+backdrop-filter:blur(14px);
+
+border:1px solid rgba(255,255,255,0.15);
+
+}
+
+
+/* footer text */
+
+.footer,
+.footer p,
+.footer li,
+.footer h3,
+.footer h4,
+.footer a{
+
+color:white !important;
+
+}
+
+
+/* footer links */
+
+.footer-col ul li a{
+
+opacity:0.9;
+
+transition:0.3s;
+
+}
+
+.footer-col ul li a:hover{
+
+opacity:1;
+
+padding-left:6px;
+
+}
+
+
+/* ========================= */
+/* SCROLLBAR */
+/* ========================= */
+
+::-webkit-scrollbar{
+width:10px;
+}
+
+::-webkit-scrollbar-track{
+background:#eaf5ff;
+}
+
+::-webkit-scrollbar-thumb{
+
+background:
+linear-gradient(
+180deg,
+var(--mc-primary),
+var(--mc-primary-light)
+);
+
+border-radius:20px;
+
+}
+
+
+/* ========================= */
+/* SELECTION */
+/* ========================= */
+
+::selection{
+
+background:var(--mc-primary);
+color:white;
+
+}
+
+
+/* ========================= */
+/* RESPONSIVE */
+/* ========================= */
+
+@media(max-width:992px){
+
+.hero{
+
+grid-template-columns:1fr !important;
+
+padding-top:90px !important;
+
+}
+
+.hero h1{
+
+font-size:54px !important;
+
+text-align:center;
+
+}
+
+.hero p{
+
+text-align:center;
+margin:auto;
+margin-top:20px;
+
+}
+
+.hero-buttons,
+.hero-features,
+.hero-stats{
+
+justify-content:center;
+
+}
+
+.about-top{
+
+grid-template-columns:1fr !important;
+
+}
+
+.footer-container{
+
+grid-template-columns:1fr 1fr !important;
+
+}
+
+}
+
+
+@media(max-width:768px){
+
+.navbar{
+
+padding:16px 5% !important;
+
+}
+
+.hero{
+
+padding:90px 5% !important;
+
+}
+
+.hero h1{
+
+font-size:42px !important;
+
+line-height:1.15 !important;
+
+}
+
+.services-grid,
+.services-extra{
+
+grid-template-columns:1fr !important;
+
+}
+
+.footer-container{
+
+grid-template-columns:1fr !important;
+
+}
+
+section{
+
+padding:70px 5% !important;
+
+}
+
+}
+
+
+/* ========================= */
+/* PREMIUM ANIMATIONS */
+/* ========================= */
+
+@keyframes mcFloat{
+
+0%{
+transform:translateY(0px);
+}
+
+50%{
+transform:translateY(-10px);
+}
+
+100%{
+transform:translateY(0px);
+}
+
+}
+
+.widget,
+.student-card,
+.team-card{
+
+animation:mcFloat 6s ease-in-out infinite;
+
+}
+
+
+/* ========================= */
+/* FINAL PREMIUM TOUCH */
+/* ========================= */
+
+.service-card::before,
+.success-card::before,
+.process-card::before,
+.widget::before{
+
+content:"";
+
+position:absolute;
+
+top:0;
+left:-120%;
+
+width:120%;
+height:100%;
+
+background:
+linear-gradient(
+90deg,
+transparent,
+rgba(255,255,255,0.45),
+transparent
+);
+
+transition:0.7s;
+
+}
+
+.service-card:hover::before,
+.success-card:hover::before,
+.process-card:hover::before,
+.widget:hover::before{
+
+left:120%;
+
+}
+
 
 
 
