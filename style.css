@@ -9877,6 +9877,542 @@ grid-template-columns:1fr !important;
 
 }
 
+/* ====================================================== */
+/* ===== MISSION CAREER FINAL HERO + NAVBAR FIX ========= */
+/* ===== ADD THIS AT VERY END OF style.css ============== */
+/* ====================================================== */
+
+
+/* ===================== */
+/* REMOVE BROKEN STYLES */
+/* ===================== */
+
+.hero,
+.hero *{
+
+transform:none !important;
+
+}
+
+
+/* ===================== */
+/* NAVBAR CLEAN FIX */
+/* ===================== */
+
+.navbar{
+
+width:100% !important;
+
+height:90px !important;
+
+padding:0 70px !important;
+
+display:flex !important;
+
+align-items:center !important;
+
+justify-content:space-between !important;
+
+background:#ffffff !important;
+
+box-shadow:
+0 2px 12px rgba(0,0,0,0.06) !important;
+
+position:relative !important;
+
+z-index:1000;
+
+}
+
+
+/* logo */
+
+.logo{
+
+background:white !important;
+
+padding:10px 18px !important;
+
+border-radius:24px !important;
+
+display:flex !important;
+
+align-items:center !important;
+
+justify-content:center !important;
+
+box-shadow:none !important;
+
+}
+
+.logo img{
+
+height:70px !important;
+width:auto !important;
+display:block;
+
+}
+
+
+/* nav links */
+
+.nav-links{
+
+display:flex !important;
+
+align-items:center !important;
+
+gap:55px !important;
+
+list-style:none !important;
+
+margin:0 !important;
+padding:0 !important;
+
+}
+
+
+/* nav text */
+
+.nav-links a{
+
+font-size:18px !important;
+
+font-weight:600 !important;
+
+color:#111827 !important;
+
+text-decoration:none !important;
+
+line-height:1 !important;
+
+}
+
+
+/* button */
+
+.nav-btn,
+.navbar .btn{
+
+height:54px !important;
+
+padding:0 28px !important;
+
+border-radius:18px !important;
+
+display:flex !important;
+
+align-items:center !important;
+
+justify-content:center !important;
+
+font-size:15px !important;
+
+white-space:nowrap;
+
+}
+
+
+/* ===================== */
+/* HERO SECTION FIX */
+/* ===================== */
+
+.hero{
+
+display:grid !important;
+
+grid-template-columns:55% 45% !important;
+
+align-items:center !important;
+
+padding:80px 70px 40px !important;
+
+gap:30px !important;
+
+min-height:760px !important;
+
+background:
+linear-gradient(
+135deg,
+#f4faff,
+#e8f5ff
+) !important;
+
+overflow:hidden !important;
+
+position:relative !important;
+
+}
+
+
+/* LEFT CONTENT */
+
+.hero-content,
+.hero-left{
+
+display:flex !important;
+
+flex-direction:column !important;
+
+justify-content:center !important;
+
+align-items:flex-start !important;
+
+width:100% !important;
+
+}
+
+
+/* MAIN HEADING */
+
+.hero h1{
+
+font-size:120px !important;
+
+line-height:0.9 !important;
+
+font-weight:800 !important;
+
+letter-spacing:-5px !important;
+
+color:#000000 !important;
+
+margin-bottom:25px !important;
+
+max-width:650px !important;
+
+}
+
+
+/* paragraph */
+
+.hero p{
+
+font-size:20px !important;
+
+line-height:1.7 !important;
+
+max-width:550px !important;
+
+margin-top:0 !important;
+
+margin-bottom:25px !important;
+
+color:#4b5563 !important;
+
+}
+
+
+/* buttons */
+
+.hero-buttons{
+
+display:flex !important;
+
+gap:18px !important;
+
+margin-top:10px !important;
+
+flex-wrap:wrap !important;
+
+}
+
+
+/* buttons clean */
+
+.hero .btn,
+.hero .btn-outline{
+
+height:56px !important;
+
+padding:0 32px !important;
+
+border-radius:18px !important;
+
+font-size:16px !important;
+
+font-weight:600 !important;
+
+}
+
+
+/* stats */
+
+.hero-stats{
+
+display:flex !important;
+
+gap:20px !important;
+
+margin-top:35px !important;
+
+flex-wrap:wrap !important;
+
+}
+
+
+/* stat box */
+
+.hero-stats .stat{
+
+min-width:180px !important;
+
+padding:22px !important;
+
+border-radius:24px !important;
+
+background:white !important;
+
+}
+
+
+/* RIGHT SIDE */
+
+.hero-right,
+.hero-widgets{
+
+width:100% !important;
+
+display:flex !important;
+
+justify-content:center !important;
+
+align-items:flex-end !important;
+
+position:relative !important;
+
+height:100% !important;
+
+}
+
+
+/* student/team cards */
+
+.students-grid,
+.team-section{
+
+display:grid !important;
+
+grid-template-columns:repeat(2,260px) !important;
+
+gap:28px !important;
+
+justify-content:center !important;
+
+align-items:end !important;
+
+}
+
+
+/* cards */
+
+.student-card,
+.team-card{
+
+width:260px !important;
+
+height:340px !important;
+
+border-radius:30px !important;
+
+overflow:hidden !important;
+
+background:white !important;
+
+box-shadow:
+0 10px 30px rgba(0,0,0,0.12) !important;
+
+position:relative !important;
+
+}
+
+
+/* images */
+
+.student-card img,
+.team-card img{
+
+width:100% !important;
+
+height:100% !important;
+
+object-fit:cover !important;
+
+display:block !important;
+
+}
+
+
+/* remove floating */
+
+.student-card,
+.team-card,
+.widget{
+
+animation:none !important;
+
+}
+
+
+/* ===================== */
+/* REMOVE RANDOM SPACING */
+/* ===================== */
+
+section{
+
+margin:0 !important;
+
+border-radius:0 !important;
+
+}
+
+
+/* ===================== */
+/* MOBILE FIX */
+/* ===================== */
+
+@media(max-width:1200px){
+
+.hero{
+
+grid-template-columns:1fr !important;
+
+padding-top:60px !important;
+
+padding-bottom:60px !important;
+
+text-align:center !important;
+
+min-height:auto !important;
+
+}
+
+.hero-content,
+.hero-left{
+
+align-items:center !important;
+
+}
+
+.hero h1{
+
+font-size:82px !important;
+
+max-width:100% !important;
+
+}
+
+.hero p{
+
+max-width:700px !important;
+
+}
+
+.hero-buttons,
+.hero-stats{
+
+justify-content:center !important;
+
+}
+
+.students-grid,
+.team-section{
+
+grid-template-columns:repeat(2,220px) !important;
+
+margin-top:40px !important;
+
+}
+
+.student-card,
+.team-card{
+
+width:220px !important;
+height:300px !important;
+
+}
+
+}
+
+
+/* ===================== */
+/* MOBILE */
+/* ===================== */
+
+@media(max-width:768px){
+
+.navbar{
+
+height:auto !important;
+
+padding:20px !important;
+
+flex-direction:column !important;
+
+gap:18px !important;
+
+}
+
+.nav-links{
+
+flex-wrap:wrap !important;
+
+justify-content:center !important;
+
+gap:20px !important;
+
+}
+
+.hero{
+
+padding:50px 24px !important;
+
+}
+
+.hero h1{
+
+font-size:62px !important;
+
+line-height:0.95 !important;
+
+letter-spacing:-2px !important;
+
+}
+
+.hero p{
+
+font-size:16px !important;
+
+}
+
+.students-grid,
+.team-section{
+
+grid-template-columns:1fr !important;
+
+}
+
+.student-card,
+.team-card{
+
+width:100% !important;
+
+max-width:320px !important;
+
+height:340px !important;
+
+margin:auto !important;
+
+}
+
+.hero-stats{
+
+justify-content:center !important;
+
+}
+
+}
+
 
 
 
