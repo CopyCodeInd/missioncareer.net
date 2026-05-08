@@ -8276,7 +8276,7 @@ h5,
     box-shadow: none !important;
 }
 
-yaha se change k    ra hai 
+yaha se change k    ra hai uday prakash pandey 
 
 
 /* ===================================================== */
@@ -9273,6 +9273,607 @@ transition:0.7s;
 .widget:hover::before{
 
 left:120%;
+
+}
+
+/* ===================================================== */
+/* ===== MISSION CAREER LAYOUT FIX OVERRIDE ============ */
+/* ===== ADD THIS BELOW THEME CODE ===================== */
+/* ===================================================== */
+
+
+/* ========================= */
+/* RESET BROKEN SPACING */
+/* ========================= */
+
+*{
+max-width:100%;
+}
+
+
+/* ========================= */
+/* BODY FIX */
+/* ========================= */
+
+body{
+
+overflow-x:hidden !important;
+
+}
+
+
+/* ========================= */
+/* NAVBAR FIX */
+/* ========================= */
+
+.navbar{
+
+height:auto !important;
+
+padding:18px 6% !important;
+
+display:flex !important;
+
+justify-content:space-between !important;
+
+align-items:center !important;
+
+gap:20px !important;
+
+flex-wrap:nowrap !important;
+
+}
+
+
+/* logo */
+
+.logo{
+
+padding:8px 16px !important;
+
+border-radius:18px !important;
+
+flex-shrink:0;
+
+}
+
+.logo img{
+
+height:65px !important;
+width:auto !important;
+display:block;
+
+}
+
+
+/* nav links */
+
+.nav-links{
+
+display:flex !important;
+
+align-items:center !important;
+
+gap:40px !important;
+
+flex-wrap:nowrap !important;
+
+list-style:none;
+
+margin:0;
+padding:0;
+
+}
+
+
+/* nav text */
+
+.nav-links a{
+
+font-size:18px !important;
+
+font-weight:600 !important;
+
+white-space:nowrap;
+
+}
+
+
+/* button */
+
+.nav-btn,
+.navbar .btn,
+.navbar button{
+
+padding:12px 28px !important;
+
+font-size:15px !important;
+
+border-radius:16px !important;
+
+height:auto !important;
+
+min-width:auto !important;
+
+}
+
+
+/* ========================= */
+/* HERO FIX */
+/* ========================= */
+
+.hero{
+
+display:grid !important;
+
+grid-template-columns:1fr 1fr !important;
+
+align-items:center !important;
+
+gap:60px !important;
+
+padding:90px 6% !important;
+
+min-height:auto !important;
+
+border-radius:0 !important;
+
+margin:0 !important;
+
+}
+
+
+/* hero left */
+
+.hero-left,
+.hero-content{
+
+width:100% !important;
+
+}
+
+
+/* hero heading */
+
+.hero h1{
+
+font-size:88px !important;
+
+line-height:0.95 !important;
+
+margin-bottom:20px !important;
+
+max-width:650px;
+
+}
+
+
+/* paragraph */
+
+.hero p{
+
+font-size:18px !important;
+
+max-width:550px !important;
+
+margin-top:15px !important;
+
+}
+
+
+/* hero buttons */
+
+.hero-buttons{
+
+display:flex !important;
+
+gap:16px !important;
+
+margin-top:28px !important;
+
+flex-wrap:wrap;
+
+}
+
+
+/* hero stats */
+
+.hero-stats{
+
+display:flex !important;
+
+gap:20px !important;
+
+margin-top:35px !important;
+
+flex-wrap:wrap;
+
+}
+
+
+/* stats card */
+
+.hero-stats .stat{
+
+padding:20px !important;
+
+min-width:180px !important;
+
+border-radius:20px !important;
+
+}
+
+
+/* ========================= */
+/* RIGHT SIDE WIDGETS FIX */
+/* ========================= */
+
+.hero-widgets{
+
+display:flex !important;
+
+flex-direction:column !important;
+
+gap:22px !important;
+
+width:100% !important;
+
+max-width:420px !important;
+
+margin-left:auto !important;
+
+}
+
+
+/* widgets */
+
+.widget{
+
+padding:22px !important;
+
+border-radius:24px !important;
+
+width:100% !important;
+
+}
+
+
+/* ========================= */
+/* SERVICES FIX */
+/* ========================= */
+
+.services{
+
+padding:90px 6% !important;
+
+}
+
+
+/* grid */
+
+.services-grid,
+.services-extra{
+
+display:grid !important;
+
+grid-template-columns:
+repeat(3,minmax(0,1fr)) !important;
+
+gap:30px !important;
+
+max-width:1300px;
+
+margin:auto;
+
+}
+
+
+/* cards */
+
+.service-card,
+.service-box{
+
+min-height:220px !important;
+
+height:auto !important;
+
+padding:30px !important;
+
+display:flex !important;
+
+flex-direction:column !important;
+
+justify-content:flex-start !important;
+
+align-items:flex-start !important;
+
+transform:none !important;
+
+}
+
+
+/* remove huge hover zoom */
+
+.service-card:hover,
+.service-box:hover{
+
+transform:
+translateY(-8px) scale(1.02) !important;
+
+}
+
+
+/* ========================= */
+/* STUDENT / TEAM CARDS */
+/* ========================= */
+
+.students-grid,
+.team-section,
+.staff-grid{
+
+display:grid !important;
+
+grid-template-columns:
+repeat(2,220px) !important;
+
+justify-content:center !important;
+
+gap:30px !important;
+
+}
+
+
+/* card size */
+
+.student-card,
+.team-card,
+.staff-card{
+
+width:220px !important;
+
+height:260px !important;
+
+}
+
+
+/* ========================= */
+/* FOOTER FIX */
+/* ========================= */
+
+.footer{
+
+padding:80px 6% 40px !important;
+
+border-radius:0 !important;
+
+margin:0 !important;
+
+}
+
+
+/* footer container */
+
+.footer-container{
+
+display:grid !important;
+
+grid-template-columns:
+repeat(4,1fr) !important;
+
+gap:30px !important;
+
+max-width:1300px;
+
+margin:auto;
+
+}
+
+
+/* footer cols */
+
+.footer-col{
+
+padding:25px !important;
+
+min-height:auto !important;
+
+}
+
+
+/* ========================= */
+/* MAP FIX */
+/* ========================= */
+
+.map-wrapper iframe{
+
+height:450px !important;
+
+}
+
+
+/* ========================= */
+/* CONTACT FIX */
+/* ========================= */
+
+.contact-grid{
+
+display:grid !important;
+
+grid-template-columns:1fr 1fr !important;
+
+gap:40px !important;
+
+}
+
+
+/* ========================= */
+/* MOBILE RESPONSIVE */
+/* ========================= */
+
+@media(max-width:1100px){
+
+.hero{
+
+grid-template-columns:1fr !important;
+
+text-align:center;
+
+}
+
+.hero h1{
+
+font-size:70px !important;
+
+margin:auto;
+
+}
+
+.hero p{
+
+margin:auto !important;
+
+}
+
+.hero-buttons,
+.hero-stats{
+
+justify-content:center !important;
+
+}
+
+.hero-widgets{
+
+margin:auto !important;
+
+}
+
+.services-grid,
+.services-extra{
+
+grid-template-columns:
+repeat(2,1fr) !important;
+
+}
+
+.footer-container{
+
+grid-template-columns:
+repeat(2,1fr) !important;
+
+}
+
+}
+
+
+/* ========================= */
+/* MOBILE */
+/* ========================= */
+
+@media(max-width:768px){
+
+.navbar{
+
+padding:16px 5% !important;
+
+flex-wrap:wrap !important;
+
+justify-content:center !important;
+
+}
+
+
+.logo img{
+
+height:52px !important;
+
+}
+
+
+.nav-links{
+
+gap:18px !important;
+
+justify-content:center !important;
+
+flex-wrap:wrap !important;
+
+}
+
+
+.nav-links a{
+
+font-size:15px !important;
+
+}
+
+
+.hero{
+
+padding:70px 5% !important;
+
+gap:40px !important;
+
+}
+
+
+.hero h1{
+
+font-size:52px !important;
+
+line-height:1.05 !important;
+
+}
+
+
+.hero p{
+
+font-size:16px !important;
+
+}
+
+
+.services-grid,
+.services-extra{
+
+grid-template-columns:1fr !important;
+
+}
+
+
+.students-grid,
+.team-section,
+.staff-grid{
+
+grid-template-columns:1fr !important;
+
+}
+
+
+.student-card,
+.team-card,
+.staff-card{
+
+width:100% !important;
+
+max-width:320px;
+
+margin:auto;
+
+}
+
+
+.footer-container{
+
+grid-template-columns:1fr !important;
+
+}
+
+
+.contact-grid{
+
+grid-template-columns:1fr !important;
+
+}
 
 }
 
