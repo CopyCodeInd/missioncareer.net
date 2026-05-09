@@ -8864,3 +8864,12 @@ Uday Prakash Pandey
     ) !important;
 
 }
+
+.feature-box,
+.info-box,
+.confusion-box{
+
+    filter: none !important;
+    text-shadow: none !important;
+
+}
