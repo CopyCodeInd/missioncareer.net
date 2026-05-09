@@ -8276,4 +8276,348 @@ h5,
     box-shadow: none !important;
 }
 
+Uday Prakash Pandey
 
+/* =========================================================
+   MISSION CAREER - OFFICIAL BRAND THEME
+   ADD THIS AT THE VERY END OF style.css
+   ========================================================= */
+
+
+/* ===== ROOT COLORS ===== */
+
+:root{
+    --mc-primary: #0A73B7;
+    --mc-secondary: #64B8F4;
+    --mc-light: #EAF6FF;
+    --mc-dark: #063B63;
+    --mc-white: #ffffff;
+    --mc-shadow: rgba(10,115,183,0.18);
+}
+
+
+/* ===== GLOBAL ===== */
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: linear-gradient(to bottom, #f8fcff, #edf7ff) !important;
+    color: #1d2b36 !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* ===== NAVBAR ===== */
+
+.navbar{
+    background: rgba(255,255,255,0.92) !important;
+    backdrop-filter: blur(14px);
+    border-bottom: 1px solid rgba(10,115,183,0.08);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+}
+
+.logo img{
+    transition: 0.3s ease;
+}
+
+.logo img:hover{
+    transform: scale(1.04);
+}
+
+
+/* ===== NAV LINKS ===== */
+
+.nav-links li a{
+    color: var(--mc-dark) !important;
+    font-weight: 600;
+    position: relative;
+    transition: 0.3s ease;
+}
+
+.nav-links li a:hover{
+    color: var(--mc-primary) !important;
+}
+
+.nav-links li a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 0%;
+    height: 2px;
+    background: var(--mc-primary);
+    transition: 0.3s ease;
+}
+
+.nav-links li a:hover::after{
+    width: 100%;
+}
+
+
+/* ===== BUTTONS ===== */
+
+.btn{
+    background: linear-gradient(135deg, #0A73B7, #4EB5F1) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 16px !important;
+    padding: 14px 26px !important;
+    font-weight: 600 !important;
+    box-shadow: 0 10px 25px rgba(10,115,183,0.25);
+    transition: 0.35s ease;
+}
+
+.btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 16px 35px rgba(10,115,183,0.35);
+}
+
+
+/* ===== HERO SECTION ===== */
+
+.hero,
+.page-hero{
+    background:
+    linear-gradient(
+        135deg,
+        rgba(10,115,183,0.92),
+        rgba(100,184,244,0.85)
+    ) !important;
+
+    color: white !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before,
+.page-hero::before{
+    content: "";
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 50%;
+    top: -180px;
+    right: -140px;
+}
+
+.hero h1,
+.page-hero h1{
+    color: white !important;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+.hero p,
+.page-hero p{
+    color: rgba(255,255,255,0.92) !important;
+}
+
+
+/* ===== SECTION HEADINGS ===== */
+
+section h1,
+section h2,
+section h3{
+    color: var(--mc-primary) !important;
+    font-weight: 700;
+}
+
+
+/* ===== CARDS ===== */
+
+.card,
+.service-card,
+.destination-card,
+.process-card,
+.success-card,
+.contact-info,
+.contact-form,
+.map-card{
+    background: rgba(255,255,255,0.88) !important;
+    border: 1px solid rgba(10,115,183,0.08);
+    border-radius: 30px !important;
+    backdrop-filter: blur(12px);
+    box-shadow:
+        0 10px 30px rgba(10,115,183,0.08),
+        inset 0 2px 8px rgba(255,255,255,0.6);
+
+    transition: 0.35s ease;
+}
+
+.card:hover,
+.service-card:hover,
+.destination-card:hover,
+.process-card:hover,
+.success-card:hover{
+    transform: translateY(-8px);
+    box-shadow:
+        0 20px 40px rgba(10,115,183,0.18),
+        inset 0 2px 8px rgba(255,255,255,0.6);
+}
+
+
+/* ===== CONTACT SECTION ===== */
+
+.contact-section{
+    background: linear-gradient(to bottom, #f7fbff, #eaf6ff) !important;
+}
+
+.contact-grid{
+    gap: 40px;
+}
+
+.contact-info{
+    padding: 45px !important;
+}
+
+.contact-info p{
+    line-height: 1.9;
+    color: #345;
+}
+
+
+/* ===== FORM ===== */
+
+.contact-form{
+    padding: 45px !important;
+}
+
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    background: rgba(255,255,255,0.75) !important;
+    border: 2px solid rgba(10,115,183,0.12) !important;
+    border-radius: 18px !important;
+    padding: 18px 20px !important;
+    font-size: 16px;
+    transition: 0.3s ease;
+    color: #123;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+    outline: none;
+    border-color: var(--mc-primary) !important;
+    box-shadow: 0 0 0 5px rgba(10,115,183,0.12);
+    background: white !important;
+}
+
+
+/* ===== MAP ===== */
+
+.map-wrapper iframe{
+    border-radius: 28px !important;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(10,115,183,0.16);
+}
+
+
+/* ===== FOOTER ===== */
+
+.footer{
+    background:
+    linear-gradient(
+        135deg,
+        #063B63,
+        #0A73B7
+    ) !important;
+
+    color: white !important;
+}
+
+.footer h3,
+.footer h4{
+    color: white !important;
+}
+
+.footer p,
+.footer li,
+.footer a{
+    color: rgba(255,255,255,0.85) !important;
+}
+
+.footer a:hover{
+    color: #8BD0FF !important;
+}
+
+.footer-bottom{
+    border-top: 1px solid rgba(255,255,255,0.12);
+}
+
+
+/* ===== SOCIAL ICONS ===== */
+
+.footer-social a{
+    width: 42px;
+    height: 42px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.12);
+    transition: 0.3s ease;
+}
+
+.footer-social a:hover{
+    background: white;
+    color: var(--mc-primary) !important;
+    transform: translateY(-3px);
+}
+
+
+/* ===== SCROLLBAR ===== */
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #eaf6ff;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#0A73B7,#64B8F4);
+    border-radius: 20px;
+}
+
+
+/* ===== SELECTION ===== */
+
+::selection{
+    background: #0A73B7;
+    color: white;
+}
+
+
+/* ===== MOBILE MENU ===== */
+
+.mobile-menu-toggle span{
+    background: var(--mc-primary) !important;
+}
+
+
+/* ===== ANIMATIONS ===== */
+
+.fade-up{
+    animation: fadeUp 0.8s ease forwards;
+}
+
+@keyframes fadeUp{
+    from{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
