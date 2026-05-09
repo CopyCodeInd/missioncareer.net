@@ -8621,3 +8621,172 @@ section h3{
         transform: translateY(0);
     }
 }
+
+/* ===== CLEAN MISSION CAREER THEME ===== */
+
+:root{
+  --primary:#0A73B7;
+  --secondary:#69BDF5;
+  --dark:#083B63;
+  --light:#F4FAFF;
+  --white:#ffffff;
+}
+
+
+/* BODY */
+
+body{
+  background:#f7fbff !important;
+  color:#1e293b !important;
+}
+
+
+/* NAVBAR */
+
+.navbar{
+  background:white !important;
+  border-bottom:1px solid #dbeafe;
+  box-shadow:0 2px 10px rgba(0,0,0,0.04);
+}
+
+.nav-links a{
+  color:var(--dark) !important;
+}
+
+.nav-links a:hover{
+  color:var(--primary) !important;
+}
+
+
+/* HERO */
+
+.hero,
+.page-hero{
+  background:linear-gradient(
+  135deg,
+  #0A73B7,
+  #69BDF5
+  ) !important;
+
+  color:white !important;
+}
+
+.hero h1,
+.page-hero h1{
+  color:white !important;
+}
+
+
+/* BUTTON */
+
+.btn{
+  background:var(--primary) !important;
+  color:white !important;
+  border:none !important;
+  border-radius:12px !important;
+  box-shadow:none !important;
+}
+
+.btn:hover{
+  background:#095e96 !important;
+}
+
+
+/* CARDS */
+
+.card,
+.service-card,
+.destination-card,
+.process-card,
+.contact-form,
+.contact-info,
+.map-card{
+
+  background:white !important;
+  border-radius:24px !important;
+  border:1px solid #dbeafe !important;
+
+  box-shadow:
+  0 4px 14px rgba(0,0,0,0.05) !important;
+
+}
+
+
+/* REMOVE GLOW */
+
+*{
+  text-shadow:none !important;
+}
+
+
+/* HEADINGS */
+
+h1,h2,h3,h4{
+  color:var(--dark) !important;
+}
+
+
+/* SPECIAL BLUE HEADINGS */
+
+.section-title,
+.hero-title{
+  color:var(--primary) !important;
+}
+
+
+/* CONTACT FORM */
+
+.contact-form input,
+.contact-form textarea{
+
+  border:1px solid #cbd5e1 !important;
+  background:white !important;
+  color:#111827 !important;
+
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+
+  border-color:var(--primary) !important;
+  box-shadow:0 0 0 3px rgba(10,115,183,0.12) !important;
+
+}
+
+
+/* FOOTER */
+
+.footer{
+
+  background:#083B63 !important;
+  color:white !important;
+
+}
+
+.footer h3,
+.footer h4,
+.footer p,
+.footer a{
+  color:white !important;
+}
+
+
+/* TEAM CARDS */
+
+.team-card{
+  background:white !important;
+  overflow:hidden;
+  border-radius:24px !important;
+}
+
+.team-card h3{
+  color:white !important;
+}
+
+
+/* REMOVE RANDOM PURPLE */
+
+span,
+strong{
+  color:inherit;
+}
