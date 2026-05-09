@@ -8790,3 +8790,77 @@ span,
 strong{
   color:inherit;
 }
+
+Uday Prakash Pandey 
+
+/* ===== FEATURE BOX CAMOUFLAGE FIX ===== */
+
+.feature-box,
+.info-box,
+.confusion-box{
+
+    background: rgba(255,255,255,0.96) !important;
+
+    border: 2px solid rgba(255,255,255,0.7) !important;
+
+    border-radius: 28px !important;
+
+    box-shadow:
+    0 6px 18px rgba(0,0,0,0.08) !important;
+
+    backdrop-filter: blur(8px);
+
+    transition: 0.3s ease;
+
+}
+
+
+/* REMOVE BLUE GLOW */
+
+.feature-box:hover,
+.info-box:hover,
+.confusion-box:hover{
+
+    transform: translateY(-4px);
+
+    box-shadow:
+    0 10px 24px rgba(0,0,0,0.12) !important;
+
+}
+
+
+/* ICONS */
+
+.feature-box i,
+.feature-box span{
+
+    font-size: 24px;
+    color: #0A73B7 !important;
+
+}
+
+
+/* TEXT INSIDE */
+
+.feature-box h3,
+.feature-box p,
+.info-box h3,
+.info-box p{
+
+    color: #083B63 !important;
+
+}
+
+
+/* SECTION BACKGROUND */
+
+.confusion-section{
+
+    background:
+    linear-gradient(
+    135deg,
+    #1b8fe0 0%,
+    #5dbcf5 100%
+    ) !important;
+
+}
