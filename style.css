@@ -8278,3 +8278,159 @@ h5,
 
 Uday Prakash Pandey
 
+/* =========================
+MISSION CAREER ORIGINAL THEME
+========================= */
+
+:root{
+  --mc-blue:#0E7ACD;
+  --mc-dark:#006FBE;
+  --mc-light:#6EC6FF;
+  --mc-bg:#F4FBFF;
+  --mc-white:#ffffff;
+  --mc-text:#163B57;
+}
+
+/* WEBSITE BACKGROUND */
+
+body{
+  background: var(--mc-bg) !important;
+  color: var(--mc-text) !important;
+}
+
+/* NAVBAR */
+
+.navbar{
+  background: rgba(255,255,255,0.92) !important;
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(14,122,205,0.12);
+}
+
+/* NAV LINKS */
+
+.nav-links a{
+  color: var(--mc-dark) !important;
+}
+
+.nav-links a:hover{
+  color: var(--mc-blue) !important;
+}
+
+/* BUTTONS */
+
+.btn,
+button{
+  background: linear-gradient(
+    135deg,
+    var(--mc-blue),
+    var(--mc-light)
+  ) !important;
+
+  color: white !important;
+  border: none !important;
+
+  box-shadow:
+  0 8px 20px rgba(14,122,205,0.18) !important;
+}
+
+.btn:hover,
+button:hover{
+  background: linear-gradient(
+    135deg,
+    var(--mc-dark),
+    var(--mc-blue)
+  ) !important;
+}
+
+/* HEADINGS */
+
+h1,h2,h3,h4,h5{
+  color: var(--mc-dark) !important;
+}
+
+/* HERO SECTION */
+
+.hero,
+.page-hero{
+  background:
+  linear-gradient(
+    135deg,
+    #EAF8FF,
+    #CDEEFF
+  ) !important;
+}
+
+/* CARDS */
+
+.service-card,
+.stat,
+.team-card,
+.contact-form,
+.contact-info,
+.destination-card,
+.process-card{
+
+  background: white !important;
+
+  border: 1px solid rgba(14,122,205,0.08);
+
+  box-shadow:
+  0 10px 30px rgba(14,122,205,0.10) !important;
+}
+
+/* REMOVE PURPLE */
+
+*{
+  border-color: rgba(14,122,205,0.12) !important;
+}
+
+/* ICONS */
+
+i,
+.service-icon{
+  color: var(--mc-blue) !important;
+}
+
+/* FOOTER */
+
+.footer{
+  background:
+  linear-gradient(
+    135deg,
+    #0B6EB7,
+    #1593E6
+  ) !important;
+
+  color: white !important;
+}
+
+.footer h3,
+.footer h4,
+.footer p,
+.footer a{
+  color: white !important;
+}
+
+/* INPUTS */
+
+input,
+textarea,
+select{
+  background: white !important;
+
+  border: 1px solid rgba(14,122,205,0.15) !important;
+
+  color: var(--mc-text) !important;
+}
+
+/* GLOW REDUCE */
+
+.service-card:hover,
+.team-card:hover,
+.stat:hover{
+  transform: translateY(-4px);
+
+  box-shadow:
+  0 12px 28px rgba(14,122,205,0.16) !important;
+}
+
