@@ -8434,3 +8434,62 @@ select{
   0 12px 28px rgba(14,122,205,0.16) !important;
 }
 
+Uday 2
+
+/* HERO SECTION FINAL FIX */
+
+.hero-section,
+.hero,
+.home-hero,
+.banner,
+.landing-section,
+.main-hero{
+
+    background: linear-gradient(
+        135deg,
+        #EAF8FF 0%,
+        #D9F2FF 50%,
+        #C7EBFF 100%
+    ) !important;
+
+    background-color: #EAF8FF !important;
+}
+
+/* CONFUSION TEXT */
+
+.hero h1 span,
+.hero-section h1 span,
+.gradient-text,
+.confusion-text{
+
+    background: linear-gradient(
+        135deg,
+        #0E7ACD,
+        #58BFFF
+    ) !important;
+
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+/* FEATURE PILLS */
+
+.hero-features div,
+.feature-box,
+.feature-pill{
+
+    background: white !important;
+
+    border: 1px solid rgba(14,122,205,0.08) !important;
+
+    box-shadow:
+    0 8px 20px rgba(14,122,205,0.10) !important;
+}
+
+/* REMOVE PURPLE */
+
+*{
+    --purple: #0E7ACD !important;
+    --violet: #58BFFF !important;
+}
+
