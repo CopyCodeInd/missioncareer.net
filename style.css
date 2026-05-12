@@ -8493,3 +8493,41 @@ Uday 2
     --violet: #58BFFF !important;
 }
 
+/* HERO TEXT FIX */
+
+.hero h1,
+.hero-section h1{
+    color: #0A2A43 !important;
+}
+
+/* WITHOUT THE */
+
+.hero h1 span,
+.gradient-text,
+.confusion-text{
+
+    background: linear-gradient(
+        135deg,
+        #0077C8,
+        #5CC7FF
+    ) !important;
+
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+/* REMOVE PURPLE COMPLETELY */
+
+span{
+    color: inherit;
+}
+
+/* FORCE LAST WORD COLOR */
+
+.hero h1 .confusion,
+.hero h1 .highlight,
+.hero h1 .blue-text{
+    color: #0E7ACD !important;
+    background: none !important;
+    -webkit-text-fill-color: #0E7ACD !important;
+}
