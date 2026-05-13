@@ -8882,3 +8882,475 @@ border-radius:22px !important;
 
 }
 
+/* ================================================= */
+/* ===== MISSION CAREER GLOBAL BLUE THEME ========== */
+/* == ADD THIS AT VERY END OF style.css ONLY ======= */
+/* ================================================= */
+
+:root{
+
+--mc-bg:#43b6ea;
+--mc-bg-dark:#1f49c6;
+--mc-primary:#1e40af;
+--mc-secondary:#2563eb;
+--mc-light:#eff6ff;
+--mc-card:#ffffff;
+--mc-text:#132c73;
+
+}
+
+
+/* ===== BODY ===== */
+
+body{
+
+background:var(--mc-bg) !important;
+
+color:var(--mc-text) !important;
+
+}
+
+
+/* ===== ALL SECTIONS ===== */
+
+section,
+.hero,
+.services,
+.destinations,
+.stats,
+.success-preview,
+.footer,
+.page-hero,
+.about-section,
+.about-advanced-section,
+.process-flow-section{
+
+background:transparent !important;
+
+}
+
+
+/* ===== NAVBAR ===== */
+
+.navbar{
+
+background:
+rgba(255,255,255,0.16) !important;
+
+backdrop-filter:blur(18px);
+
+border-bottom:
+1px solid rgba(255,255,255,0.12);
+
+box-shadow:
+0 10px 30px rgba(0,0,0,0.08);
+
+}
+
+
+/* ===== LOGO ===== */
+
+.logo{
+
+background:white !important;
+
+padding:10px 18px !important;
+
+border-radius:22px !important;
+
+box-shadow:
+0 12px 28px rgba(0,0,0,0.12);
+
+}
+
+
+/* ===== HEADINGS ===== */
+
+h1,
+h2,
+h3{
+
+color:#1d2f8f !important;
+
+font-weight:800;
+
+}
+
+
+/* ===== HERO TITLE ===== */
+
+.hero h1{
+
+font-size:74px !important;
+
+line-height:1.05 !important;
+
+letter-spacing:-2px;
+
+}
+
+
+/* ===== GRADIENT TEXT ===== */
+
+.gradient-text{
+
+background:
+linear-gradient(
+90deg,
+#1d2f8f,
+#2563eb,
+#60a5fa
+);
+
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+
+}
+
+
+/* ===== PARAGRAPHS ===== */
+
+p{
+
+color:#173270 !important;
+
+line-height:1.8;
+
+}
+
+
+/* ===== BUTTON ===== */
+
+.btn{
+
+background:
+linear-gradient(
+135deg,
+#3155f5,
+#5b6dff
+) !important;
+
+border:none !important;
+
+color:white !important;
+
+border-radius:50px !important;
+
+font-weight:700;
+
+padding:14px 30px !important;
+
+box-shadow:
+0 12px 30px rgba(49,85,245,0.28);
+
+transition:0.35s ease;
+
+}
+
+.btn:hover{
+
+transform:translateY(-5px);
+
+box-shadow:
+0 18px 40px rgba(49,85,245,0.35);
+
+}
+
+
+/* ===== OUTLINE BUTTON ===== */
+
+.btn-outline{
+
+background:white !important;
+
+border:none !important;
+
+color:#3155f5 !important;
+
+border-radius:50px !important;
+
+font-weight:700;
+
+box-shadow:
+0 10px 25px rgba(0,0,0,0.08);
+
+}
+
+
+/* ===== ALL CARDS ===== */
+
+.widget,
+.service-box,
+.service-card,
+.country,
+.success-card,
+.team-card,
+.stat,
+.footer-col,
+.contact-form,
+.uni-card,
+.step-card,
+.feature-box,
+.mission-card{
+
+background:
+rgba(255,255,255,0.92) !important;
+
+backdrop-filter:blur(14px);
+
+border:none !important;
+
+border-radius:32px !important;
+
+box-shadow:
+0 14px 40px rgba(0,0,0,0.08);
+
+transition:0.35s ease;
+
+}
+
+
+/* ===== CARD HOVER ===== */
+
+.widget:hover,
+.service-box:hover,
+.country:hover,
+.success-card:hover,
+.team-card:hover,
+.stat:hover{
+
+transform:
+translateY(-8px)
+scale(1.02);
+
+}
+
+
+/* ===== FEATURES ===== */
+
+.feature,
+.chip{
+
+background:
+rgba(255,255,255,0.9) !important;
+
+border-radius:18px !important;
+
+box-shadow:
+0 8px 20px rgba(0,0,0,0.06);
+
+color:#1d2f8f !important;
+
+}
+
+
+/* ===== STATS ===== */
+
+.stat h2,
+.stat h3{
+
+color:#3155f5 !important;
+
+font-size:54px !important;
+
+}
+
+
+/* ===== FINDER ===== */
+
+.finder-widget{
+
+background:
+rgba(255,255,255,0.2) !important;
+
+backdrop-filter:blur(18px);
+
+border-radius:30px !important;
+
+padding:24px !important;
+
+box-shadow:
+0 10px 30px rgba(0,0,0,0.08);
+
+}
+
+
+/* ===== INPUTS ===== */
+
+select,
+input,
+textarea{
+
+background:white !important;
+
+border:none !important;
+
+border-radius:18px !important;
+
+padding:14px !important;
+
+color:#173270 !important;
+
+box-shadow:
+0 6px 16px rgba(0,0,0,0.05);
+
+}
+
+
+/* ===== TEAM SECTION ===== */
+
+.team-card{
+
+overflow:hidden !important;
+
+}
+
+.team-info{
+
+background:
+linear-gradient(
+90deg,
+rgba(37,99,235,0.95),
+rgba(59,130,246,0.92)
+) !important;
+
+padding:14px 18px !important;
+
+border-radius:20px !important;
+
+}
+
+.team-info h3,
+.team-info p{
+
+color:white !important;
+
+}
+
+
+/* ===== COUNTRIES ===== */
+
+.country{
+
+font-size:24px !important;
+
+font-weight:700;
+
+color:#1d2f8f !important;
+
+}
+
+
+/* ===== FOOTER ===== */
+
+.footer{
+
+background:
+linear-gradient(
+135deg,
+#2446d8,
+#43b6ea
+) !important;
+
+margin-top:100px;
+
+border-radius:50px 50px 0 0;
+
+overflow:hidden;
+
+}
+
+.footer p,
+.footer li,
+.footer a,
+.footer h3,
+.footer h4{
+
+color:white !important;
+
+}
+
+
+/* ===== FOOTER LOGO ===== */
+
+.footer-logo img{
+
+background:white !important;
+
+padding:12px 22px !important;
+
+border-radius:20px !important;
+
+}
+
+
+/* ===== SCROLLBAR ===== */
+
+::-webkit-scrollbar{
+
+width:10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+background:
+linear-gradient(
+180deg,
+#3155f5,
+#43b6ea
+);
+
+border-radius:20px;
+
+}
+
+
+/* ===== GLOW EFFECT ===== */
+
+body::before{
+
+content:"";
+
+position:fixed;
+
+top:-220px;
+right:-220px;
+
+width:500px;
+height:500px;
+
+background:
+radial-gradient(
+circle,
+rgba(255,255,255,0.22),
+transparent 70%
+);
+
+z-index:-1;
+
+}
+
+body::after{
+
+content:"";
+
+position:fixed;
+
+bottom:-240px;
+left:-240px;
+
+width:550px;
+height:550px;
+
+background:
+radial-gradient(
+circle,
+rgba(37,99,235,0.18),
+transparent 70%
+);
+
+z-index:-1;
+
+}
+
