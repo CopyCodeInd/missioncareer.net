@@ -8278,3 +8278,607 @@ h5,
 
 Uday Prakash Pandey
 
+/* ================================================= */
+/* ========== MISSION CAREER BRAND RENEW =========== */
+/* ===== ADD THIS AT THE VERY END OF style.css ===== */
+/* ================================================= */
+
+/* ===== ROOT COLORS ===== */
+
+:root{
+
+--mc-primary:#0b74c9;
+--mc-secondary:#38bdf8;
+--mc-light:#e0f2fe;
+--mc-dark:#082f49;
+--mc-white:#ffffff;
+--mc-text:#0f172a;
+--mc-glow:rgba(56,189,248,0.35);
+
+}
+
+
+/* ===== BODY ===== */
+
+body{
+
+background:
+linear-gradient(
+135deg,
+#f4fbff 0%,
+#dff4ff 35%,
+#c9ebff 70%,
+#eef9ff 100%
+) !important;
+
+color:var(--mc-text) !important;
+
+overflow-x:hidden;
+
+}
+
+
+/* ===== GLOBAL SECTION ===== */
+
+section,
+.hero,
+.services,
+.stats,
+.finder,
+.page-hero,
+.contact-section,
+.map-section,
+.cta-section{
+
+background:transparent !important;
+
+}
+
+
+/* ===== NAVBAR ===== */
+
+.navbar{
+
+background:
+rgba(255,255,255,0.72) !important;
+
+backdrop-filter:blur(16px);
+
+border:1px solid rgba(255,255,255,0.4);
+
+box-shadow:
+0 10px 35px rgba(11,116,201,0.12);
+
+}
+
+
+/* ===== NAV LINKS ===== */
+
+.nav-links a{
+
+color:var(--mc-dark) !important;
+
+font-weight:600;
+
+}
+
+.nav-links a:hover{
+
+color:var(--mc-primary) !important;
+
+}
+
+
+/* ===== LOGO ===== */
+
+.logo{
+
+background:white !important;
+
+padding:10px 20px !important;
+
+border-radius:22px !important;
+
+box-shadow:
+0 10px 35px rgba(11,116,201,0.18),
+0 0 25px rgba(56,189,248,0.22);
+
+border:1px solid rgba(56,189,248,0.25);
+
+}
+
+
+/* ===== HEADINGS ===== */
+
+h1,h2,h3{
+
+color:var(--mc-dark) !important;
+
+}
+
+
+/* ===== HERO TITLE ===== */
+
+.hero h1{
+
+font-size:68px !important;
+
+line-height:1.05;
+
+letter-spacing:-2px;
+
+}
+
+
+/* ===== GRADIENT TEXT ===== */
+
+.gradient-text{
+
+background:
+linear-gradient(
+90deg,
+#0b74c9,
+#38bdf8,
+#60a5fa
+);
+
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+
+}
+
+
+/* ===== PARAGRAPH ===== */
+
+p{
+
+color:#334155 !important;
+
+line-height:1.7;
+
+}
+
+
+/* ===== BUTTONS ===== */
+
+.btn{
+
+background:
+linear-gradient(
+135deg,
+#0b74c9,
+#38bdf8
+) !important;
+
+color:white !important;
+
+border:none !important;
+
+border-radius:50px !important;
+
+padding:14px 28px !important;
+
+font-weight:700;
+
+box-shadow:
+0 10px 25px rgba(11,116,201,0.28);
+
+transition:0.35s ease;
+
+}
+
+.btn:hover{
+
+transform:translateY(-5px) scale(1.03);
+
+box-shadow:
+0 18px 40px rgba(11,116,201,0.35);
+
+}
+
+
+/* ===== OUTLINE BUTTON ===== */
+
+.btn-outline{
+
+background:rgba(255,255,255,0.7) !important;
+
+color:var(--mc-primary) !important;
+
+border:2px solid #38bdf8 !important;
+
+border-radius:50px !important;
+
+backdrop-filter:blur(10px);
+
+}
+
+.btn-outline:hover{
+
+background:linear-gradient(
+135deg,
+#0b74c9,
+#38bdf8
+) !important;
+
+color:white !important;
+
+}
+
+
+/* ===== PREMIUM GLASS CARDS ===== */
+
+.service-card,
+.service-box,
+.widget,
+.country,
+.success-card,
+.process-card,
+.stat,
+.team-card,
+.contact-form,
+.map-card,
+.uni-card,
+.footer-col{
+
+background:
+rgba(255,255,255,0.68) !important;
+
+backdrop-filter:blur(14px);
+
+border:1px solid rgba(255,255,255,0.45);
+
+border-radius:26px !important;
+
+box-shadow:
+0 10px 35px rgba(11,116,201,0.12);
+
+transition:0.35s ease;
+
+}
+
+
+/* ===== CARD HOVER ===== */
+
+.service-card:hover,
+.service-box:hover,
+.widget:hover,
+.country:hover,
+.success-card:hover,
+.process-card:hover,
+.stat:hover,
+.team-card:hover,
+.uni-card:hover{
+
+transform:
+translateY(-10px)
+scale(1.02);
+
+box-shadow:
+0 25px 60px rgba(11,116,201,0.22);
+
+}
+
+
+/* ===== HERO STATS ===== */
+
+.hero-stats .stat{
+
+background:
+linear-gradient(
+145deg,
+rgba(255,255,255,0.82),
+rgba(224,242,254,0.7)
+) !important;
+
+}
+
+
+/* ===== STAT NUMBERS ===== */
+
+.stat h2,
+.stat h3{
+
+color:var(--mc-primary) !important;
+
+}
+
+
+/* ===== FEATURES ===== */
+
+.feature,
+.chip,
+.admit-item{
+
+background:
+rgba(255,255,255,0.75) !important;
+
+border:1px solid rgba(56,189,248,0.18);
+
+backdrop-filter:blur(10px);
+
+border-radius:18px !important;
+
+box-shadow:
+0 8px 20px rgba(11,116,201,0.08);
+
+}
+
+
+/* ===== HERO WIDGETS ===== */
+
+.hero-widgets .widget{
+
+position:relative;
+
+overflow:hidden;
+
+}
+
+
+/* glowing top line */
+
+.hero-widgets .widget::before{
+
+content:"";
+
+position:absolute;
+
+top:0;
+left:0;
+
+width:100%;
+height:4px;
+
+background:
+linear-gradient(
+90deg,
+#0b74c9,
+#38bdf8,
+#60a5fa
+);
+
+}
+
+
+/* ===== SERVICES SECTION ===== */
+
+.services{
+
+padding-top:100px !important;
+
+}
+
+
+/* ===== COUNTRY TICKER ===== */
+
+.ticker-track span{
+
+background:white !important;
+
+color:var(--mc-dark);
+
+border:1px solid rgba(56,189,248,0.22);
+
+}
+
+
+/* ===== INPUTS ===== */
+
+input,
+textarea,
+select{
+
+background:
+rgba(255,255,255,0.82) !important;
+
+border:1px solid rgba(56,189,248,0.25) !important;
+
+border-radius:14px !important;
+
+padding:12px !important;
+
+outline:none;
+
+}
+
+
+/* ===== INPUT FOCUS ===== */
+
+input:focus,
+textarea:focus,
+select:focus{
+
+border-color:#0b74c9 !important;
+
+box-shadow:
+0 0 0 4px rgba(56,189,248,0.18);
+
+}
+
+
+/* ===== FOOTER ===== */
+
+.footer{
+
+background:
+linear-gradient(
+135deg,
+#0a2540,
+#0b74c9
+) !important;
+
+color:white !important;
+
+margin-top:120px;
+
+border-radius:40px 40px 0 0;
+
+overflow:hidden;
+
+}
+
+
+/* ===== FOOTER TEXT ===== */
+
+.footer p,
+.footer li,
+.footer a{
+
+color:#e2e8f0 !important;
+
+}
+
+
+/* ===== FOOTER LINKS ===== */
+
+.footer a:hover{
+
+color:white !important;
+
+}
+
+
+/* ===== FOOTER LOGO ===== */
+
+.footer-logo img{
+
+background:white;
+
+border-radius:18px;
+
+padding:12px 24px;
+
+box-shadow:
+0 10px 35px rgba(0,0,0,0.25);
+
+}
+
+
+/* ===== TEAM CARDS ===== */
+
+.team-info{
+
+background:
+linear-gradient(
+90deg,
+rgba(11,116,201,0.95),
+rgba(56,189,248,0.92)
+) !important;
+
+padding:10px 18px !important;
+
+border-radius:18px !important;
+
+-webkit-text-fill-color:white !important;
+
+color:white !important;
+
+text-shadow:none !important;
+
+}
+
+
+/* ===== SCROLLBAR ===== */
+
+::-webkit-scrollbar{
+
+width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+background:#dff4ff;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+background:
+linear-gradient(
+180deg,
+#0b74c9,
+#38bdf8
+);
+
+border-radius:20px;
+
+}
+
+
+/* ===== FLOATING GLOW ===== */
+
+body::before{
+
+content:"";
+
+position:fixed;
+
+top:-200px;
+right:-200px;
+
+width:500px;
+height:500px;
+
+background:
+radial-gradient(
+circle,
+rgba(56,189,248,0.25),
+transparent 70%
+);
+
+z-index:-1;
+
+}
+
+body::after{
+
+content:"";
+
+position:fixed;
+
+bottom:-250px;
+left:-250px;
+
+width:550px;
+height:550px;
+
+background:
+radial-gradient(
+circle,
+rgba(11,116,201,0.18),
+transparent 70%
+);
+
+z-index:-1;
+
+}
+
+
+/* ===== MOBILE ===== */
+
+@media(max-width:768px){
+
+.hero h1{
+
+font-size:44px !important;
+
+}
+
+.navbar{
+
+padding:18px 5% !important;
+
+}
+
+.service-card,
+.service-box,
+.widget{
+
+border-radius:22px !important;
+
+}
+
+}
+
